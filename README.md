@@ -5,5 +5,3 @@ Collection of sample projects
 |---------------|--------------------|----------------|
 | Jacoco Kotlin | Kotlin,  jacoco    | 🟢 stable ️    |
 | Jacoco Java   | Java 11, Jacoco    | 🟢 stable      |
-| Duilius       | Kotlin,  Micronaut | 🟡 in progress |
-| Tromphimus    | Zipkin             | 🟡 in progress |
