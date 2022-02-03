@@ -19,6 +19,7 @@
   </properties>
 
   <modules>
+    <module>jacoco-kotlin</module>
     <module>jacoco-java</module>
   </modules>
 
