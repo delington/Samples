@@ -21,6 +21,7 @@
   <modules>
     <module>jacoco-kotlin</module>
     <module>jacoco-java</module>
+    <module>date-time-formatter</module>
   </modules>
 
   <build>

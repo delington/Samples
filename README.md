@@ -1,7 +1,8 @@
 # Samples
 Collection of sample projects
 
-| Project name  | highlights         | stage          |
-|---------------|--------------------|----------------|
-| Jacoco Kotlin | Kotlin,  jacoco    | 🟢 stable ️    |
-| Jacoco Java   | Java 11, Jacoco    | 🟢 stable      |
+| Project name      | tags            | stage        |
+|-------------------|-----------------|--------------|
+| Jacoco Kotlin     | Kotlin,  jacoco | ✔️ completed |
+| Jacoco Java       | Java 11, Jacoco | ✔️ completed |
+| Time Converter    | Java 11         | ✔️ completed |
