@@ -22,6 +22,7 @@
     <module>jacoco-kotlin</module>
     <module>jacoco-java</module>
     <module>date-time-formatter</module>
+    <module>local-dynamodb</module>
   </modules>
 
   <build>
