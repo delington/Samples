@@ -8,7 +8,7 @@
   <artifactId>Samples</artifactId>
   <version>1.0</version>
 
-  <name>Samples</name>
+  <name>samples</name>
   <packaging>pom</packaging>
 
   <properties>
