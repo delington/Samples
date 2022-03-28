@@ -15,6 +15,7 @@
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
         <spring-boot-version>2.1.18.RELEASE</spring-boot-version>
+        <graphql-java-kickstart-version>11.1.0</graphql-java-kickstart-version>
     </properties>
 
  <dependencies>
@@ -47,9 +48,28 @@
      <dependency>
          <groupId>com.graphql-java-kickstart</groupId>
          <artifactId>playground-spring-boot-starter</artifactId>
-         <version>11.1.0</version>
+         <version>${graphql-java-kickstart-version}</version>
          <scope>runtime</scope>
      </dependency>
+     <!-- https://mvnrepository.com/artifact/com.graphql-java-kickstart/voyager-spring-boot-starter -->
+     <dependency>
+         <groupId>com.graphql-java-kickstart</groupId>
+         <artifactId>voyager-spring-boot-starter</artifactId>
+         <version>${graphql-java-kickstart-version}</version>
+     </dependency>
+     <!-- https://mvnrepository.com/artifact/com.graphql-java-kickstart/altair-spring-boot-starter -->
+     <dependency>
+         <groupId>com.graphql-java-kickstart</groupId>
+         <artifactId>altair-spring-boot-starter</artifactId>
+         <version>${graphql-java-kickstart-version}</version>
+     </dependency>
+     <!-- https://mvnrepository.com/artifact/com.graphql-java-kickstart/graphiql-spring-boot-starter -->
+     <dependency>
+         <groupId>com.graphql-java-kickstart</groupId>
+         <artifactId>graphiql-spring-boot-starter</artifactId>
+         <version>${graphql-java-kickstart-version}</version>
+     </dependency>
+
 
      <!-- https://mvnrepository.com/artifact/com.google.guava/guava -->
      <dependency>
