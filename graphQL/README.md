@@ -1,4 +1,4 @@
-#GraphQL sample (book-details)
+# GraphQL sample (book-details)
 
 <img src="pictures/graphql.png" height="130" width="130"/>
 
