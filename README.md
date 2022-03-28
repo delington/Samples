@@ -3,7 +3,7 @@ Collection of sample projects
 
 | Project name  | tags                                             |
 |---------------|--------------------------------------------------|
-| Jacoco Kotlin | Kotlin,  jacoco                                  |
+| Jacoco Kotlin | Kotlin,  Jacoco                                  |
 | Jacoco Java   | Java 11, Jacoco                                  |
 | Time Converter | Java 11                                          |
 | Local DynamoDB | Java 11, Spring-boot                             |
