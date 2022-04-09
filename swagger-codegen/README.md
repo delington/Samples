@@ -1,6 +1,6 @@
 # Swagger codegen
 
-Sample project fow showing swagger-codegen-maven-plugin working.
+Sample project to show how `swagger-codegen-maven-plugin` works.
 
 2 `.yaml` files are examples for code generation:
 - `api.yaml`
