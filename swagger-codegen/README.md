@@ -10,6 +10,6 @@ How to generate code:
 
 `mvn clean compile`
 
-Make sure you set the correct execution:
+⚠️ Make sure only one execution applies:
 - `generate-spring-boot-server-api` for api generation in spring-boot
 - `generate-retrofit2-client` for generate retrofit2 based http client
