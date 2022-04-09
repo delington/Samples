@@ -24,6 +24,7 @@
     <module>date-time-formatter</module>
     <module>local-dynamodb</module>
     <module>graphQL</module>
+    <module>swagger-codegen</module>
   </modules>
 
   <build>

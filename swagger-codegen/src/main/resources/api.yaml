@@ -1,0 +1,56 @@
+swagger: '2.0'
+info:
+  description: Sample Swagger Demo
+  version: 1.0.0
+  title: Swagger Employee Demo
+  license:
+    name: Apache 2.0
+    url: http://www.apache.org/licenses/LICENSE-2.0.html
+host: localhost
+basePath: /v1
+tags:
+  - name: employee
+    description: Everything about your Employee
+schemes:
+  - http
+paths:
+  /findEmployeeDetails/{employeeId}:
+    get:
+      tags:
+        - employee
+      summary: Find employee by ID
+      description: Returns a single Employee
+      operationId: getEmployeeDetails
+      produces:
+        - application/json
+      parameters:
+        - name: employeeId
+          in: path
+          description: ID of Employee to return
+          required: true
+          type: integer
+          format: int64
+      responses:
+        '200':
+          description: successful operation
+          schema:
+            $ref: '#/definitions/Employee'
+        '400':
+          description: Invalid Employee ID supplied
+        '404':
+          description: Employee not found
+definitions:
+  Employee:
+    type: object
+    properties:
+      id:
+        type: integer
+        format: int64
+      firstName:
+        type: string
+        description: Employee First Name
+      lastName:
+        type: string
+        description: Employee Last Name
+    xml:
+      name: employee
