@@ -148,8 +148,8 @@
                                     <element>CLASS</element>
                                     <excludes>
                                         <exclude>*Test</exclude>
-                                        <exclude>com.example.Application</exclude>
-                                        <exclude>com.example.ApplicationKt</exclude>
+                                        <exclude>com.example.bjorg.Application</exclude>
+                                        <exclude>com.example.bjorg.ApplicationKt</exclude>
                                     </excludes>
                                     <limits>
                                         <limit>

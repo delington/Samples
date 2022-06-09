@@ -1,4 +1,4 @@
-package com.example.controller
+package com.example.bjorg.controller
 
 import org.junit.jupiter.api.Assertions
 import org.junit.jupiter.api.Test

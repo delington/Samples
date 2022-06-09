@@ -25,6 +25,7 @@
     <module>local-dynamodb</module>
     <module>graphQL</module>
     <module>swagger-codegen</module>
+    <module>testcontainer</module>
   </modules>
 
   <build>
