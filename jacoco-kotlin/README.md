@@ -5,8 +5,6 @@
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-2.5.5-brightgreen.svg?style=flat-square&logo=springboot)
 ![Maven](https://img.shields.io/badge/Maven-3.8.1-orange.svg?style=flat-square&logo=apachemaven)
 ![Jacoco](https://img.shields.io/badge/Jacoco-0.8.7-orange.svg?style=flat-square&logo=checkmarx)
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/59d42de4b94f4e1b96d8f434d6cf9b79)](https://www.codacy.com/gh/delington/Bjorg/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=delington/Bjorg&amp;utm_campaign=Badge_Grade)
-[![CI](https://github.com/delington/Bjorg/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/delington/Bjorg/actions/workflows/ci.yml)
 ---
 ## The project
 

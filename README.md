@@ -1,4 +1,5 @@
 # Samples
+
 Collection of sample projects
 
 | Project name    | tags                                             |
@@ -9,3 +10,4 @@ Collection of sample projects
 | Local DynamoDB  | Java 11, Spring-boot                             |
 | GraphQL         | Java 11, Spring-boot, GraphQL, GraphQL kickstart |
 | Swagger-codegen | Java 11, Spring-boot, Retrofit2, Gson            |
+| Test Container  | Java 11, Docker, JUnit 5                         |
