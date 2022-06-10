@@ -5,10 +5,12 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.testcontainers.containers.GenericContainer;
 import org.testcontainers.junit.jupiter.Container;
+import org.testcontainers.junit.jupiter.Testcontainers;
 import org.testcontainers.utility.DockerImageName;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+@Testcontainers
 public class RedisBackedCacheIntTest {
 
     private static final int REDIS_PORT = 6379;
@@ -23,14 +25,21 @@ public class RedisBackedCacheIntTest {
     @BeforeEach
     public void setUp() {
         // Assume that we have Redis running locally?
-        underTest = new RedisBackedCache("localhost", REDIS_PORT);
+        String address = redis.getHost();
+        Integer port = redis.getFirstMappedPort();
+
+        // Now we have an address and port for Redis, no matter where it is running
+        underTest = new RedisBackedCache(address, port);
     }
 
     @Test
     public void testSimplePutAndGet() {
-        underTest.put("test", "example");
+        final String TEST_KEY = "test";
+        final String TEST_VALUE = "example";
 
-        String retrieved = underTest.get("test");
-        assertEquals("example", retrieved);
+        underTest.put(TEST_KEY, TEST_VALUE);
+
+        String retrieved = underTest.get(TEST_KEY);
+        assertEquals(TEST_VALUE, retrieved);
     }
 }

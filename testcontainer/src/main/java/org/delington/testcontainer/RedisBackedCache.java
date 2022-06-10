@@ -10,8 +10,8 @@ public class RedisBackedCache {
         this.jedis = new JedisPooled(host, port);
     }
 
-    public void put(String key, String... members){
-        jedis.sadd(key, members);
+    public void put(String key, String value){
+        jedis.set(key, value);
     }
 
     public String get(String key) {
