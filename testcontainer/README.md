@@ -12,4 +12,5 @@ Sample project to show how a test container works.
 - Run with `mvn clean install` command
 
 ## Reference
-- https://www.testcontainers.org/quickstart/junit_5_quickstart/
+- https://www.testcontainers.org/quickstart/junit_5_quickstart
+- https://redisson.org/redis-java-client-with-code-example.html
