@@ -147,7 +147,6 @@
                                 <rule>
                                     <element>CLASS</element>
                                     <excludes>
-                                        <exclude>*Test</exclude>
                                         <exclude>com.example.bjorg.Application</exclude>
                                         <exclude>com.example.bjorg.ApplicationKt</exclude>
                                     </excludes>

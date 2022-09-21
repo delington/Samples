@@ -82,7 +82,6 @@
                                 <rule>
                                     <element>CLASS</element>
                                     <excludes>
-                                        <exclude>*Test</exclude>
                                         <exclude>com.delington.yorgos.Application</exclude>
                                     </excludes>
                                     <limits>
