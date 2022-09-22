@@ -26,6 +26,7 @@
     <module>graphQL</module>
     <module>swagger-codegen</module>
     <module>testcontainer</module>
+    <module>mapstruct</module>
   </modules>
 
   <build>
