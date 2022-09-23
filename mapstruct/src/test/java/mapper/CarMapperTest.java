@@ -1,5 +1,9 @@
-package car;
+package mapper;
 
+import mappers.CarMapper;
+import model.car.Car;
+import model.car.CarDto;
+import model.car.CarType;
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;

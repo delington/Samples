@@ -1,4 +1,4 @@
-package car;
+package model.car;
 
 import lombok.Getter;
 import lombok.Setter;

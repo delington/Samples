@@ -1,5 +1,7 @@
-package car;
+package mappers;
 
+import model.car.Car;
+import model.car.CarDto;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.mapstruct.factory.Mappers;

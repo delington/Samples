@@ -1,4 +1,4 @@
-package bodyvalues;
+package model.bodyvalues;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;
