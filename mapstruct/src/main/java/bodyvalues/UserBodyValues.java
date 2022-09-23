@@ -1,3 +1,5 @@
+package bodyvalues;
+
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
@@ -5,9 +7,7 @@ import lombok.Setter;
 @Getter
 @Setter
 @AllArgsConstructor
-public class Car {
-
-    private String make;
-    private int numberOfSeats;
-    private CarType type;
+public class UserBodyValues {
+    private double kilogram;
+    private double centimeter;
 }
