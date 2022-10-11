@@ -27,6 +27,7 @@
     <module>swagger-codegen</module>
     <module>testcontainer</module>
     <module>mapstruct</module>
+    <module>read-file</module>
   </modules>
 
   <build>
