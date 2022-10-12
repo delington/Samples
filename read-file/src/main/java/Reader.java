@@ -4,7 +4,7 @@ import java.io.InputStreamReader;
 
 public class Reader {
 
-    public String readByRelativePath(String path) {
+    public String readByRelativePathByStaticClassReference(String path) {
         try (BufferedReader bufferedReader = new BufferedReader(
                 new InputStreamReader(Reader.class.getResourceAsStream(path)))
         ) {
@@ -15,7 +15,7 @@ public class Reader {
         }
     }
 
-    public String readByRelativePathOtherWay(String path) {
+    public String readByRelativePathByInstanceReference(String path) {
         try (BufferedReader bufferedReader = new BufferedReader(
                 new InputStreamReader(this.getClass().getResourceAsStream(path)))
         ) {
