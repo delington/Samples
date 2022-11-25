@@ -1,4 +1,4 @@
-package com.example.bjorg.controller
+package com.delington.bjorg.controller
 
 import org.springframework.web.bind.annotation.RequestMapping
 import org.springframework.web.bind.annotation.RestController

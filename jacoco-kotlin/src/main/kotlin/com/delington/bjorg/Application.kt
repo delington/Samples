@@ -1,4 +1,4 @@
-package com.example.bjorg
+package com.delington.bjorg
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication

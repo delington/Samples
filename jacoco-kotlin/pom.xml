@@ -147,8 +147,8 @@
                                 <rule>
                                     <element>CLASS</element>
                                     <excludes>
-                                        <exclude>com.example.bjorg.Application</exclude>
-                                        <exclude>com.example.bjorg.ApplicationKt</exclude>
+                                        <exclude>com.delington.bjorg.Application</exclude>
+                                        <exclude>com.delington.bjorg.ApplicationKt</exclude>
                                     </excludes>
                                     <limits>
                                         <limit>
