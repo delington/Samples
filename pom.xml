@@ -28,6 +28,7 @@
     <module>testcontainer</module>
     <module>mapstruct</module>
     <module>read-file</module>
+    <module>spring-data</module>
   </modules>
 
   <build>
