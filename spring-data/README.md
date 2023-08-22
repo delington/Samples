@@ -5,7 +5,16 @@
 ---
 ## The project
 
-Maven project to showcase working with Spring Data
+Maven project to showcase how Spring Data works with different databases.
 
 ## How to run
-Run with `maven clean install` command.
+
+H2 database: 
+- Run with `maven clean install` command.
+
+MySQL: 
+
+- Change `spring.profiles.active: h2` to `spring.profiles.active: mysql`
+- Run MySQL database (on port `3306`)
+- Create database named `simple`
+- Run `maven clean install`
