@@ -27,6 +27,7 @@
     <module>swagger-codegen</module>
     <module>testcontainer</module>
     <module>mapstruct</module>
+    <module>prometheus-grafana</module>
     <module>read-file</module>
     <module>spring-data</module>
   </modules>
